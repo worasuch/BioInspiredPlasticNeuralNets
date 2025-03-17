@@ -1,0 +1,8 @@
+__pycache___
+__pycache__/
+runs
+runs_ES
+omniisaacgymenvs.egg-info/
+checkpoints
+omniisaacgymenvs/wandb
+analysis
