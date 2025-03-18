@@ -68,13 +68,13 @@ The following error may appear during the initial installation. This error is ha
 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
 ```
 
-Finally, open the Isaac Sim GUI and import the robot model to the following path: 
+Finally, open the Isaac Sim GUI and import the robot model (e.g., gecko robot) to the following path: 
 ```omniverse://localhost/Projects/slalom/```
 
 The robot model is provided in this repository under: ```BioInspiredPlasticNeuralNets/omniisaacgymenvs/robots/models/```
 
-For example, the gecko-like robot model used is *slalom_fixedbody_16dof.usd*
-
+For example, the gecko-like robot model used is [*slalom_fixedbody_16dof.usd*](
+https://github.com/worasuch/BioInspiredPlasticNeuralNets/blob/main/omniisaacgymenvs/robots/models/slalom_fixedbody_16dof.usd)
 
 ## How to run   
 
@@ -84,7 +84,7 @@ For example, the gecko-like robot model used is *slalom_fixedbody_16dof.usd*
 To train gecko-like robot (named Slalom), run:
 
 ```bash
-PYTHON_PATH scripts/es_train.py task=Slalom num_envs=10 test=False headless=True
+PYTHON_PATH scripts/es_train.py task=Slalom num_envs=10 test=False headless=False
 ```
 
 
@@ -94,7 +94,7 @@ An Isaac Sim app window should be launched. Once Isaac Sim initialization comple
 To achieve maximum performance, launch training in `headless` mode with a larger number of robot environments `num_envs` as follows:
 
 ```bash
-PYTHON_PATH scripts/es_train.py task=Slalom num_envs=1024 test=False headless=False
+PYTHON_PATH scripts/es_train.py task=Slalom num_envs=1024 test=False headless=True
 ```
 
 
