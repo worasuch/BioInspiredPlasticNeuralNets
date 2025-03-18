@@ -98,6 +98,23 @@ PYTHON_PATH scripts/es_train.py task=Slalom num_envs=1024 test=False headless=Tr
 ```
 
 
+## Citation   
+
+If you use the code for academic or commecial use, please cite the associated paper:
+
+```bibtex
+@misc{leung2025bioinspiredplasticneuralnetworks,
+      title={Bio-Inspired Plastic Neural Networks for Zero-Shot Out-of-Distribution Generalization in Complex Animal-Inspired Robots}, 
+      author={Binggwong Leung and Worasuchad Haomachai and Joachim Winther Pedersen and Sebastian Risi and Poramate Manoonpong},
+      year={2025},
+      eprint={2503.12406},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2503.12406}, 
+}
+```   
+
+
 ## References
 
 For more information, please refer to [Omniverse Isaac Gym Reinforcement Learning Environments for Isaac Sim](https://github.com/isaac-sim/OmniIsaacGymEnvs)
