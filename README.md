@@ -11,7 +11,7 @@
 
 
 
-This reposistory contains the code to train Hebbian networks on [Omniverse Isaac Gym Reinforcement Learning Environments for Isaac Sim](https://github.com/isaac-sim/OmniIsaacGymEnvs) as described in our paper [Bio-Inspired Plastic Neural Networks for Zero-Shot Out-of-Distribution Generalization in Complex Animal-Inspired Robots, 2025](hhttps://arxiv.org/abs/2503.12406).
+This reposistory contains the code to train Hebbian networks on [Omniverse Isaac Gym Reinforcement Learning Environments for Isaac Sim](https://github.com/isaac-sim/OmniIsaacGymEnvs) as described in our paper [Bio-Inspired Plastic Neural Networks for Zero-Shot Out-of-Distribution Generalization in Complex Animal-Inspired Robots, 2025](https://arxiv.org/abs/2503.12406).
 
 
 
